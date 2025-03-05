@@ -16,7 +16,7 @@ const Footer = () => {
           <a href="https://in.linkedin.com/company/team-chemeca" target="_blank" rel="noopener noreferrer">
             <TiSocialLinkedin className='text-4xl hover:text-emerald-300' />
           </a>
-          <a href="https://www.instagram.com/chemeca.iitb/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/chemeca.iitb/" target="_blank" rel="noopener noreferrer    ">
             <FaInstagram className='text-3xl hover:text-emerald-300' />
           </a>
         </div>
