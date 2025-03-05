@@ -8,10 +8,7 @@
 
 
   "type": "module",
-
-
- 
-
+  "homepage": "https://ChemEcA.github.com/CHEMECAIITB/ChemEca.git",
 
   "scripts": {
 
@@ -25,7 +22,9 @@
     "lint": "eslint .",
 
 
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
 
 
   },
