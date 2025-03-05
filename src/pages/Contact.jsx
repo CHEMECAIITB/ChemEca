@@ -41,7 +41,7 @@ const Contact = () => {
           <div className="icon address-icon" />
           <p>Address</p>
           <ul>
-            <li>Aerospace Department basement, IIT Bombay, Powai, Mumbai, Maharashtra, India. PIN - 400076</li>
+            <li>ChemEca Lab, F3 shed, Chemcial Engineering, IIT Bombay, Powai, Mumbai, Maharashtra, India. PIN - 400076</li>
           </ul>
         </div>
         <div className="info">

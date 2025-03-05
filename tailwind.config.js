@@ -12,7 +12,6 @@ export default {
       'display': ['Oswald'],
       'body': ['"Open Sans"'],
     }
-  },
-  plugins: [require('@codaworks/react-glow/tailwind')],
+  }
 }
 

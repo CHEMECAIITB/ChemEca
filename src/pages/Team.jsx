@@ -2,8 +2,8 @@ import React from 'react';
 import Header from '../components/Header';
 import Card from '../components/Card';
 import bgrn from '../assets/bgrnd.jpg';
-import img1 from '../assets/profiles/img1.jpeg';
-import img2 from '../assets/profiles/img2.jpeg';
+import img1 from '../assets/profiles/img1.jpg';
+import img2 from '../assets/profiles/img2.jpg';
 import img3 from '../assets/profiles/img3.jpeg';
 import img4 from '../assets/profiles/img4.jpg';
 import img5 from '../assets/profiles/img5.jpeg';
@@ -48,14 +48,10 @@ const Team = () => {
   const teamMembers = [
     // Faculty Advisor
   
-    { "name": "Prof. Bharat Kumar Suthar", "email": "bharat.k.suthar@iitb.ac.in", "position": "Faculty Advisor", "division": "Faculty Advisor", "image": img1 },
-    // Faculty Mentor
-    { "name": "Prof. Sanjay Mahajani", "email": "sanjaym@che.iitb.ac.in", "position": "Faculty Mentor", "division": "Faculty Mentor", "image": img2 },
-    { "name": "Prof. Arnab Dutta", "email": "arnab.dutta@iitb.ac.in", "position": "Faculty Mentor", "division": "Faculty Mentor", "image": img3 },
-    { "name": "Prof. Yogendra Shastri", "email": "yshastri@iitb.ac.in", "position": "Faculty Mentor", "division": "Faculty Mentor", "image": img4 },
-    { "name": "Prof. Mahesh", "email": "mahesh@che.iitb.ac.in", "position": "Faculty Mentor", "division": "Faculty Mentor", "image": img5 },
-    { "name": "Prof. Sonali", "email": "sonali.das@iitb.ac.in", "position": "Faculty Mentor", "division": "Faculty Mentor", "image": img6 },
-  
+    { "name": "Sudarshan Vijay", "email": "sudarshan.vijay@iitb.ac.in", "position": "Faculty Advisor", "division": "Faculty Advisor", "image": img1 },
+    
+    { "name": "Sandip Roy", "email": "sr@iitb.ac.in", "position": "Faculty Advisor", "division": "Faculty Advisor", "image": img2},
+
     // PhD Advisor
     { "name": "Vipul Amrutkar", "email": "23d0139@iitb.ac.in", "position": "PhD Advisor", "division": "PhD Advisor" },
   

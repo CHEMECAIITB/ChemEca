@@ -2,217 +2,146 @@
 
 
   "name": "chemeca",
-  
 
-  
-  
 
   "version": "0.0.0",
-  
+
 
   "type": "module",
-  
 
-  "homepage": "https://jainamdosi.github.io/CHEMECA_IITB/",
-  
+
+ 
+
 
   "scripts": {
 
-  "dev": "vite",
-  
 
-    
+    "dev": "vite",
 
-  "build": "vite build",
-  
 
-    
+    "build": "vite build",
 
-  "lint": "eslint .",
-  
 
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "lint": "eslint .",
 
-  
+
+    "preview": "vite preview"
+
 
   },
-  
+
 
   "dependencies": {
-  
 
-    
 
-  "@codaworks/react-glow": "^1.0.6",
-  
+    "@codaworks/react-glow": "^1.0.6",
 
-    
 
-  "@gsap/react": "^2.1.1",
-  
+    "@gsap/react": "^2.1.1",
 
-    
 
-  "@splinetool/react-spline": "^4.0.0",
-  
+    "@splinetool/react-spline": "^4.0.0",
 
-    
 
-  "animated-backgrounds": "^1.0.11",
-  
+    "animated-backgrounds": "^1.0.11",
 
-    
 
-  "bootstrap": "^5.3.3",
-  
+    "bootstrap": "^5.3.3",
 
-    
 
-  "framer-motion": "^11.11.9",
-  
+    "framer-motion": "^11.11.9",
 
-    
 
-  "gsap": "^3.12.5",
-  
+    "gsap": "^3.12.5",
 
-    
 
-  "ldrs": "^1.0.2",
-  
+    "ldrs": "^1.0.2",
 
-    
 
-  "react": "^18.3.1",
-  
+    "react": "^18.3.1",
 
-    
 
-  "react-bootstrap": "^2.10.5",
-  
+    "react-bootstrap": "^2.10.5",
 
-    
 
-  "react-dom": "^18.3.1",
-  
+    "react-dom": "^18.3.1",
 
-    
 
-  "react-google-fonts": "^1.2.1",
-  
+    "react-google-fonts": "^1.2.1",
 
-    
 
-  "react-icons": "^5.3.0",
-  
+    "react-icons": "^5.3.0",
 
-    
 
-  "react-parallax-tilt": "^1.7.257",
-  
+    "react-parallax-tilt": "^1.7.257",
 
-    
 
-  "react-router-dom": "^6.27.0",
-  
+    "react-router-dom": "^6.27.0",
 
-    
 
-  "react-slick": "^0.30.2",
-  
+    "react-slick": "^0.30.2",
 
-    
 
-  "slick-carousel": "^1.8.1",
-  
+    "slick-carousel": "^1.8.1",
 
-    
 
-  "three": "^0.169.0",
-  
+    "three": "^0.169.0",
 
-    
 
-  "vanta": "^0.5.24"
-  
+    "vanta": "^0.5.24"
+
 
   },
-  
+
 
   "devDependencies": {
-  
 
-    
 
-  "@eslint/js": "^9.11.1",
-  
+    "@eslint/js": "^9.11.1",
 
-    
 
-  "@types/react": "^18.3.10",
-  
+    "@types/react": "^18.3.10",
 
-    
 
-  "@types/react-dom": "^18.3.0",
-  
+    "@types/react-dom": "^18.3.0",
 
-    
 
-  "@vitejs/plugin-react": "^4.3.2",
-  
+    "@vitejs/plugin-react": "^4.3.2",
 
-    
 
-  "autoprefixer": "^10.4.20",
-  
+    "autoprefixer": "^10.4.20",
 
-    
 
-  "eslint": "^9.11.1",
-  
+    "eslint": "^9.11.1",
 
-    
 
-  "eslint-plugin-react": "^7.37.0",
-  
+    "eslint-plugin-react": "^7.37.0",
 
-    
 
-  "eslint-plugin-react-hooks": "^5.1.0-rc.0",
-  
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
 
-    
 
-  "eslint-plugin-react-refresh": "^0.4.12",
-  
+    "eslint-plugin-react-refresh": "^0.4.12",
 
-    
 
-  "gh-pages": "^6.2.0",
-  
+    "gh-pages": "^6.3.0",
 
-    
 
-  "globals": "^15.9.0",
-  
+    "globals": "^15.9.0",
 
-    
 
-  "postcss": "^8.4.47",
-  
+    "postcss": "^8.4.47",
 
-    
 
-  "tailwindcss": "^3.4.14",
-  
+    "tailwindcss": "^3.4.14",
 
-    
 
-  "vite": "^5.4.9"
-  
+    "vite": "^5.4.9"
+
 
   }
+
+
 }
+
+
