@@ -55,7 +55,7 @@ const Process = () => {
 
     <div className='mt-12 flex flex-row p-5 items-center'>
   <div className='w-2/3'>      
-    <h1 className='text-4xl font-medium text-orange-300'>Fabrication</h1>
+    <h1 className='text-4xl font-medium text-orange-300'>Results & Sensitivity analysis</h1>
     <p className='mt-9 text-justify'>
       Fabrication transforms process designs into functional prototypes. Using AutoCAD, 
       detailed engineering drawings of equipment and system layouts are prepared, ensuring
@@ -73,7 +73,7 @@ const Process = () => {
     
 <div className='mt-1 flex flex-row p-5 items-center'>
   <div className='w-2/3'>      
-    <h1 className='text-4xl font-medium text-orange-300'>Safety</h1>
+    <h1 className='text-4xl font-medium text-orange-300'>Piping and instrumentation</h1>
     <p className='mt-9 text-justify'>
     Safety is integral to every stage of the process.
      This involves conducting thorough hazard assessments,

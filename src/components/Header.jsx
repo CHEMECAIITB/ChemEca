@@ -33,23 +33,23 @@ const Header = () => {
               onClick={toggleDropdown} 
             >
               <span className='MY'>
-                Subdivision
+              Subsystems
               </span>
               <span className="ml-1">▼</span> {/* Dropdown arrow */}
             </div>
             {dropdownOpen && (
   <div className="drop absolute top-8 left-0 text-white rounded shadow-lg text-sm">
     <Link to="/Research" className="block hover:text-cyan-500 px-2 py-2">
-      Research
+    Reseach & Developmet
     </Link>
     <Link to="/Process" className="block  hover:text-cyan-500 px-2 py-2">
       Process & Manufacturing
     </Link>
     <Link to="/Controls" className="block hover:text-cyan-500 px-2 py-2">
-      Control & Automation
+      Controls & Automation
     </Link>
     <Link to="/Business" className="block hover:text-cyan-500 px-2 py-2">
-      Business
+      Business & Outreach
     </Link>
   </div>
 )}
@@ -59,7 +59,7 @@ const Header = () => {
             to="/Team"
             className={`MY text-xl ${isActive('/Team') ? 'text-blue-500' : 'text-white'}`}
           >
-            Team
+            Our Team
           </Link>
           <Link
             to="/Comp"
