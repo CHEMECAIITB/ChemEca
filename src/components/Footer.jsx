@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
         <div className="mt-2">
           <p>Contact Us:</p>
-          <p>Yogesh Dangi : 7067503163</p>
+          <p>Yogesh Dangi : 7067503163, Saransh vottery : 75090 40303</p>
           <a href="mailto:chemeca.iitb@gmail.com" className="contact-email hover:text-emerald-300">
             chemeca.iitb@gmail.com
           </a>

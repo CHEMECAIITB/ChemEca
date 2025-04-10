@@ -17,8 +17,11 @@ const Header = () => {
     <div className='warp h-28'>
       <div className='wrapper flex items-center justify-between mt-0 w-full'>
         <nav className='flex items-center ml-10'>
-          <img src={icon} alt="icon" className='w-24 h-24 mr-5' />
-          <Link to='/'><div className='text-4xl tracking-wide text-slate-100'>ChemEca</div></Link>
+          <Link to='/' className='flex items-center'>
+            <img src={icon} alt="icon" className='w-24 h-24 mr-5' />
+            <div className='text-4xl tracking-wide text-slate-100'>ChemEca</div>
+          </Link>
+
         </nav>
         <nav className='flex space-x-8 mr-14'>
           <Link

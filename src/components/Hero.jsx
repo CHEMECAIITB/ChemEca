@@ -33,7 +33,7 @@ export const Hero = () => {
       {/* Outer div with overflow hidden to contain all content */}
       <div className='overflow-hidden '>
         {/* Texts are moved below initially using translate-y */}
-        <div className='tobe transform translate-y-32 opacity-0'>Catalysing</div>
+        <div className='tobe transform translate-y-32 opacity-0 '>Catalysing</div>
       </div>
       <div className='overflow-hidden'>
         <h1 className='line transform translate-y-32 opacity-0'> Reactions into </h1>    

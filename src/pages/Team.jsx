@@ -13,9 +13,9 @@ import img8 from '../assets/profiles/img8.jpg';
 import img9 from '../assets/profiles/img9.jpg';
 import img10 from '../assets/profiles/img10.jpeg';
 import img11 from '../assets/profiles/img11.jpg';
-// import img12 from '../assets/profiles/img12.jpeg';
+// import img12 from '../assets/profiles/shivam.png';
 // import img13 from '../assets/profiles/img13.jpeg';
-// import img14 from '../assets/profiles/img14.jpeg';
+import img14 from '../assets/profiles/img14.png';
 // import img15 from '../assets/profiles/img15.jpeg';
 // import img16 from '../assets/profiles/img16.jpeg';
 import img17 from '../assets/profiles/img17.jpeg';
@@ -64,7 +64,7 @@ const Team = () => {
     { "name": "Arush Gaur", "email": "210020022@iitb.ac.in", "position": "Senior Advisor", "division": "Research Subsystem", "image": img11 },
     { "name": "Pranav P. Kawade", "email": "23B0372@iitb.ac.in", "position": "Research Associate", "division": "Research Subsystem" },
     { "name": "Sai Tambaku", "email": "23B0351@iitb.ac.in", "position": "Research Associate", "division": "Research Subsystem" },
-    { "name": "Shivam Gupta", "email": "23b0309@iitb.ac.in", "position": "Research Associate", "division": "Research Subsystem" },
+    { "name": "Shivam Gupta", "email": "23b0309@iitb.ac.in", "position": "Research Associate", "division": "Research Subsystem" ,"image": img14},
     { "name": "Darppan MV", "email": "22b0436@iitb.ac.in", "position": "Research Associate", "division": "Research Subsystem" },
     { "name": "Eshika Mishra", "email": "23B0371@iitb.ac.in", "position": "Research Associate", "division": "Research Subsystem" },
     
