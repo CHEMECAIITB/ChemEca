@@ -1,10 +1,17 @@
 import React from 'react';
-import './Carousel.css'; // Assuming the CSS is saved in Carousel.css
+import './Carousel.css';
 
-const Carousel = ({ images, reverse = false, width = 500, height =150, quantity = 10,className='' }) => {
+const Carousel = ({
+  images,
+  reverse = false,
+  width = 120,     // ✅ Reduced default width for mobile
+  height = 100,    // ✅ Shorter height for mobile
+  quantity = 10,
+  className = ''
+}) => {
   return (
     <div
-    className={`slider ${className}`}
+      className={`slider ${className}`}
       style={{
         '--width': `${width}px`,
         '--height': `${height}px`,

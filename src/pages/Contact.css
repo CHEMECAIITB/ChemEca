@@ -1,94 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Contact Page Styling */
 .contact-us {
-    padding: 20px;
-    background-color: #f7f4f2;
-  }
-  
-  .header {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .header h1 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .header h2 {
-    font-size: 30px;
-    color: #d3006b;
-    margin-bottom: 10px;
-  }
-  
-  .header p {
-    color: #666;
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
-  .contact-info {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
+  padding: 40px 20px;
+  background-color: #f7f4f2;
+  min-height: 100vh;
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.header h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #d3006b;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.header p {
+  color: #555;
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Contact Info Grid */
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Each Info Card */
+.info {
+  flex: 1 1 22%;
+  background-color: #f1e0e6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.info:hover {
+  transform: translateY(-4px);
+}
+
+.info p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.info ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Icon Styling */
+.icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 10px auto;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+/* Specific Icons */
+.phone-icon {
+  background-image: url('https://img.icons8.com/ios/452/phone.png');
+}
+.email-icon {
+  background-image: url('https://img.icons8.com/ios/452/mail.png');
+}
+.address-icon {
+  background-image: url('https://img.icons8.com/ios/452/address.png');
+}
+.clock-icon {
+  background-image: url('https://img.icons8.com/ios/452/clock.png');
+}
+
+/* Responsive Layout */
+@media (max-width: 1024px) {
   .info {
-    width: 22%;
-    background-color: #f1e0e6;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    text-align: center;
+    flex: 1 1 45%;
   }
-  
-  .info p {
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
+}
+
+@media (max-width: 640px) {
+  .info {
+    flex: 1 1 100%;
   }
-  
-  .info ul {
-    list-style-type: none;
-    padding: 0;
-    font-size: 14px;
-    color: #333;
+
+  .header h1 {
+    font-size: 28px;
   }
-  
-  .icon {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
+
+  .header h2 {
+    font-size: 20px;
   }
-  
-  .phone-icon {
-    background-image: url('https://img.icons8.com/ios/452/phone.png');
-  }
-  
-  .email-icon {
-    background-image: url('https://img.icons8.com/ios/452/mail.png');
-  }
-  
-  .address-icon {
-    background-image: url('https://img.icons8.com/ios/452/address.png');
-  }
-  
-  .clock-icon {
-    background-image: url('https://img.icons8.com/ios/452/clock.png');
-  }
-  
-  @media (max-width: 768px) {
-    .info {
-      width: 48%;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .info {
-      width: 100%;
-    }
-  }
-  
+}

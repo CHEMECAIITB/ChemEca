@@ -1,10 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import 'ldrs/jellyTriangle';
 
-const CustomCursor = (event) => {
-  const [position, setPosition] = useState({ x:event.clientX , y: event.clientY });
+const CustomCursor = () => {
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    // Detect if user is on mobile (no custom cursor needed)
+    const checkIfMobile = () => {
+      const isTouch = 'ontouchstart' in window || window.innerWidth < 768;
+      setIsMobile(isTouch);
+    };
+
+    checkIfMobile();
+    window.addEventListener('resize', checkIfMobile);
+
     const handleMouseMove = (event) => {
       setPosition({ x: event.clientX, y: event.clientY });
     };
@@ -13,16 +23,19 @@ const CustomCursor = (event) => {
 
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('resize', checkIfMobile);
     };
   }, []);
 
+  if (isMobile) return null; // 🔇 Disable on mobile
+
   const cursorStyle = {
-    position: 'absolute',
+    position: 'fixed', // ✅ better than absolute when scrolling
     left: `${position.x}px`,
     top: `${position.y}px`,
-    zIndex:50,
-    pointerEvents: 'none', // Make sure the cursor doesn't block interactions
-    transform: 'translate(-50%, -50%)', // Center the cursor on the mouse pointer
+    zIndex: 9999,
+    pointerEvents: 'none',
+    transform: 'translate(-50%, -50%)',
   };
 
   return (

@@ -2,49 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* ✅ Custom font */
 @font-face {
-    font-family: 'DM-Sans-regular';
-    src: url('DM-Sans-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-
- 
-
-
-.MAINDIV{
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.w-34{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-    
+  font-family: 'DM-Sans-regular';
+  src: url('DM-Sans-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.wrap2{
- 
-  display: flex;           /* Use flexbox for alignment */
-  justify-content: center; /* Center horizontally */
+/* ✅ Hero wrapper styling */
+.wrap2 {
+  font-family: 'Space Grotesk', sans-serif;
+  height: 100vh;                         /* ✅ Full screen height */
+  width: 100vw;
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgba(39, 39, 39, 1) 100%),
+    url('../assets/BG.png');
+  background-size: cover;               /* ✅ Use cover to fill container fully */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  display: flex;
   align-items: center;
-  
-    font-family: 'Space Grotesk';
-    position: relative;
-    top:0;
-    width: 100vw;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* ✅ Mobile override (for phones) */
+@media (max-width: 768px) {
+  .wrap2 {
     background-image:
-    linear-gradient(to bottom, rgba(255, 255, 255,0) 50%, rgb(39, 39, 39) 100%),
-     url('../assets/BG.png');
+      linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgba(39, 39, 39, 1) 100%),
+      url('../assets/BGphone.png');
     background-size: cover;
     background-position: center;
-    height: 100vh;
-  
-
+  }
 }
 
+/* Optional utility */
+.w-34 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -2,49 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
-    opacity: 0; /* Initially hide the overlay */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: opacity 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .overlay-text {
-    color: white;
-    font-size: 0.8rem;
-    text-align: center;
-    padding: 10px;
-    white-space: pre-wrap;
-  }
-  
-  .IM:hover .overlay {
-    opacity: 1; /* Show the overlay when the image is hovered */
-  }
-  
-    
- /* HoverCard.css */
-.up {
+/* Main overlay when hovering */
+.overlay {
   position: absolute;
-  bottom: 10px; /* Adjust as needed */
-  left: 50%;
-  background: rgba(0, 0, 0, 0.1);
+  inset: 0; /* shorthand for top, right, bottom, left = 0 */
+  background: rgba(0, 0, 0, 0.6); /* Slightly darker for better readability */
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease-in-out;
   border-radius: 1rem;
-  transform: translateX(-50%);
-  color: white; /* Adjust text color if needed */
-  font-size: 1rem; /* Adjust font size */
+  padding: 1rem;
   text-align: center;
-  z-index: 2; 
 }
 
- 
+/* Overlay text (title + description) */
+.overlay-text {
+  color: #fff;
+  font-size: 0.85rem;
+  white-space: pre-wrap; /* Keep line breaks */
+  line-height: 1.3;
+}
+
+/* Card hover behavior */
+.IM:hover .overlay {
+  opacity: 1;
+}
+
+/* Subsystem title (below image) */
+.up {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.75rem;
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-align: center;
+  z-index: 2;
+  backdrop-filter: blur(4px);
+}

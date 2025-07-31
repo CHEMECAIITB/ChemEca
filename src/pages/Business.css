@@ -1,50 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .main3 {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  }
-  
-  /* Background Video Styling */
-  .background-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -2;
-  }
-  
-  /* Gradient Overlay Styling */
-  .overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, rgba(68, 67, 67, 0) 0%, rgba(39, 39, 39) 100%);
-    z-index: -1;
-  }
-  
-  /* Mute Button Styling */
-  .mute-btn {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    padding: 10px 16px;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-    backdrop-filter: blur(4px);
-    transition: background 0.3s ease;
-  }
-  
-  .mute-btn:hover {
-    background: rgba(0, 0, 0, 0.8);
-  }
-  
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Background Video */
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* Gradient Overlay */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(68, 67, 67, 0) 0%, rgba(39, 39, 39, 1) 100%);
+  z-index: -1;
+}
+
+/* Mute Button */
+.mute-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+  transition: background 0.3s ease;
+}
+
+.mute-btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Responsive image size inside business cards */
+.images {
+  max-width: 100%;
+  height: auto;
+}

@@ -2,46 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-
 .warp {
-    width: 100vw;
-    background-image: 
-    linear-gradient(to top, rgba(68, 67, 67, 0) 0%, rgba(45, 45, 45) 100%);
-   /* Semi-transparent white */
-    /* backdrop-filter: blur(80px); Adjust blur level as needed */
-    -webkit-backdrop-filter: blur(50px); /* Safari support */
-    border-radius: 10px; /* Optional: gives it a rounded appearance */
-    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); Optional: adds a shadow effect */
-    position: fixed;
-    
-    align-items: center;
-    align-self: center;
-    display: flex;
-    top:0;
-    z-index: 80;
-  }
-
-.main2{
-    font-family:"poppins";
+  background-image: linear-gradient(to top, rgba(68, 67, 67, 0) 0%, rgba(45, 45, 45) 100%);
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
+  border-radius: 10px;
+  position: fixed;
+  top: 0;
+  z-index: 80;
+  width: 100%;
 }
 
 .MY {
-    font-family: "poppins";
-    transition: color 0.3s ease; 
+  font-family: "poppins";
+  transition: color 0.3s ease;
 }
 
 .MY:hover {
-    color: #6da1f5; /* Hover color (blue) */
-  }
-  
-  .MY.text-blue-500 {
-    color: #6da1f5; /* Active page color */
-  }
+  color: #6da1f5;
+}
 
-.drop{
-    background-color: rgba(35, 35, 35, 0.792);
-    width: 12rem;
+.MY.text-blue-500 {
+  color: #6da1f5;
+}
+
+.drop {
+  background-color: rgba(35, 35, 35, 0.792);
+  width: 12rem;
 }
