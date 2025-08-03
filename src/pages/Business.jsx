@@ -10,6 +10,9 @@ import tca from '../assets/zoom_meet.jpeg';
 import colab from '../assets/group_photo.jpg';
 import videoBg from '../assets/ChemEca_Pitch_video.mp4';
 
+
+
+
 const Business = () => {
   const videoRef = useRef(null);
   const [isMuted, setIsMuted] = useState(true);
@@ -26,6 +29,15 @@ const Business = () => {
       ease: 'power2.out'
     });
   });
+
+
+  useEffect(() => {
+  console.log(videoRef.current); // Should not be null
+  if (videoRef.current) {
+    console.log('Muted:', videoRef.current.muted);
+    console.log('Paused:', videoRef.current.paused);
+  }
+}, []);
 
   const toggleMute = () => {
     const video = videoRef.current;
@@ -45,11 +57,11 @@ const Business = () => {
           ref={videoRef}
           className="background-video"
           autoPlay
-          muted={isMuted}
+          muted
           loop
           playsInline
         >
-          <source src={videoBg} type="video/mp4" />
+          <source src="src/assets/ChemEca_Pitch_video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
