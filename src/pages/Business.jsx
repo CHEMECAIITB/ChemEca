@@ -8,7 +8,7 @@ import './Business.css';
 import ttb from '../assets/Havc.png';
 import tca from '../assets/zoom_meet.jpeg';
 import colab from '../assets/group_photo.jpg';
-import videoBg from '../../public/ChemEca_Pitch_video.mp4';
+import videoBg from '../assets/ChemEca_Pitch_video.mp4';
 
 
 
@@ -61,7 +61,7 @@ const Business = () => {
           loop
           playsInline
         >
-          <source src="public/ChemEca_Pitch_video.mp4" type="video/mp4" />
+          <source src="src/assets/ChemEca_Pitch_video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
