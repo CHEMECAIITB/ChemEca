@@ -8,7 +8,11 @@
 
 
   "type": "module",
+
+
   "homepage": "https://chemecaiitb.github.io/ChemEca/",
+
+
   "scripts": {
 
 
@@ -22,8 +26,12 @@
 
 
     "preview": "vite preview",
+
+
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+
+
+    "deploy": "gh-pages -d dist"
 
 
   },
