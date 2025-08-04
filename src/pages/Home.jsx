@@ -74,13 +74,18 @@ const Home = () => {
       <div className="content-container flex flex-col items-center justify-center px-4 text-justify">
         <h1 className="ABOUT text-3xl sm:text-4xl md:text-5xl mt-11 font-semibold">ABOUT US</h1>
         <p className="mt-8 text-base sm:text-lg md:text-xl text-gray-500 max-w-4xl">
-          Team ChemEca is a dynamic, interdisciplinary student team that brings together innovative minds
+          {/* Team ChemEca is a dynamic, interdisciplinary student team that brings together innovative minds
           from various fields to tackle complex challenges in chemical engineering and beyond. Focused on
           hands-on projects, cutting-edge research, and industry-relevant competitions, ChemEca provides a
           platform for students to collaborate, learn, and excel in areas ranging from process simulation
           to sustainable technology development. With a commitment to innovation and excellence, the team
           aims to bridge the gap between academic learning and real-world application, preparing its members
-          for leadership roles in the chemical industry and related fields.
+          for leadership roles in the chemical industry and related fields. */}
+          We are currently working on the integration of carbon capture technology 
+          with HVAC systems to enable simultaneous air conditioning and CO₂ removal. 
+          This approach aims to enhance indoor air quality while contributing to decarbonization efforts 
+          in built environments. By leveraging existing ventilation infrastructure, we seek to create an energy-efficient 
+          and scalable solution for climate-conscious buildings.
         </p>
       </div>
 

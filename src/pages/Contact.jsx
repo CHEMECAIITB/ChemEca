@@ -13,7 +13,7 @@ const Contact = () => {
     <Header/>
     <div className="contact-us mt-28">
       <div className="header">
-        <h1>Get in Touch with Us</h1>
+        <h1>We would love to answer your query</h1>
         <h2>CONTACT US</h2>
         <p>
           

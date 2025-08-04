@@ -34,8 +34,8 @@ const Header = () => {
             {dropdownOpen && (
               <div className="drop absolute top-8 left-0 text-white rounded shadow-lg text-sm z-50">
                 <Link to="/Research" className="block hover:text-cyan-500 px-2 py-2">Research & Development</Link>
-                <Link to="/Process" className="block hover:text-cyan-500 px-2 py-2">Process & Manufacturing</Link>
-                <Link to="/Controls" className="block hover:text-cyan-500 px-2 py-2">Controls & Automation</Link>
+                <Link to="/Process" className="block hover:text-cyan-500 px-2 py-2">Process Simulation</Link>
+                <Link to="/Controls" className="block hover:text-cyan-500 px-2 py-2">Instrumentation</Link>
                 <Link to="/Business" className="block hover:text-cyan-500 px-2 py-2">Business & Outreach</Link>
               </div>
             )}

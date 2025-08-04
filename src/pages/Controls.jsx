@@ -29,7 +29,7 @@ const Controls = () => {
       <Header />
       <div className='main5'>
         <h1 className='headings text-4xl md:text-6xl font-medium uppercase text-center px-4'>
-          Controls and Automation Subsystem
+          {/* Controls and Automation Subsystem */} Instrumentation Subsystem
         </h1>
       </div>
 

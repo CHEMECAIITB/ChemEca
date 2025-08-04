@@ -29,7 +29,7 @@ const Process = () => {
 
       <div className='main6'>
         <h1 className='headings text-4xl md:text-6xl font-medium uppercase text-center px-4'>
-          Process and Manufacturing Subsystem
+          Process Simulation Subsystem
         </h1>
       </div>
 
