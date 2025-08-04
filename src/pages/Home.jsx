@@ -60,7 +60,7 @@ const Home = () => {
             IIT Bombay’s pioneering student-led team in
           </h1>
           <h1 className="iitb text-lg sm:text-xl md:text-2xl lg:text-4xl tracking-normal font-medium uppercase">
-            sustainable chemical engineering,
+            sustainable engineering,
           </h1>
           <h1 className="iitb text-lg sm:text-xl md:text-2xl lg:text-4xl tracking-normal font-medium uppercase">
             aims to tackle challenges from carbon capture to fuel cells

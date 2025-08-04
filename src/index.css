@@ -12,5 +12,5 @@ body {
   color: rgb(254, 250, 244);
   
   font-family: "poppins";
-  
+  overflow-x: hidden; 
 }
