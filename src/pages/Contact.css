@@ -1,7 +1,8 @@
 .contact-us {
   padding: 2rem;
-  background-color: #f9fafb;
-  min-height: 100vh;
+  background-color: #0a0a0a; /* Dark background */
+  min-height: 67vh;
+  color: #f5f5f5;
 }
 
 .header {
@@ -13,19 +14,19 @@
 .header h1 {
   font-size: clamp(2rem, 5vw, 2.5rem);
   font-weight: 700;
-  color: #1f2937;
+  color: #ffffff;
   margin-bottom: 0.5rem;
 }
 
 .header h2 {
   font-size: clamp(1.5rem, 4vw, 2rem);
-  color: #db2777;
+  color: #ff4081; /* Accent pink */
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
 .header p {
-  color: #4b5563;
+  color: #b0b0b0;
   font-size: clamp(0.9rem, 2.5vw, 1rem);
   line-height: 1.6;
   max-width: 600px;
@@ -40,23 +41,24 @@
 }
 
 .info {
-  background-color: #ffffff;
+  background: linear-gradient(145deg, #121212, #1a1a1a);
   padding: 1.5rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .info:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(255, 64, 129, 0.2);
 }
 
 .info p {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #1f2937;
+  color: #ffffff;
   margin-bottom: 0.75rem;
 }
 
@@ -64,7 +66,7 @@
   list-style-type: none;
   padding: 0;
   font-size: 0.9rem;
-  color: #4b5563;
+  color: #b0b0b0;
   line-height: 1.5;
 }
 
@@ -80,22 +82,23 @@
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
+  filter: brightness(0) invert(1); /* Make icons white */
 }
 
 .phone-icon {
-  background-image: url('https://img.icons8.com/ios-filled/50/1f2937/phone.png');
+  background-image: url('https://img.icons8.com/ios-filled/50/ffffff/phone.png');
 }
 
 .email-icon {
-  background-image: url('https://img.icons8.com/ios-filled/50/1f2937/mail.png');
+  background-image: url('https://img.icons8.com/ios-filled/50/ffffff/mail.png');
 }
 
 .address-icon {
-  background-image: url('https://img.icons8.com/ios-filled/50/1f2937/address.png');
+  background-image: url('https://img.icons8.com/ios-filled/50/ffffff/address.png');
 }
 
 .clock-icon {
-  background-image: url('https://img.icons8.com/ios-filled/50/1f2937/clock.png');
+  background-image: url('https://img.icons8.com/ios-filled/50/ffffff/clock.png');
 }
 
 @media (max-width: 1024px) {
