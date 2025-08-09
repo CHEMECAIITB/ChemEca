@@ -57,8 +57,8 @@ const Header = () => {
         <div className="md:hidden flex flex-col bg-gray-900 text-white px-6 pb-4 space-y-2 z-40">
           <Link to="/Home" className="MY" onClick={toggleMobileMenu}>Home</Link>
           <Link to="/Research" className="MY" onClick={toggleMobileMenu}>Research</Link>
-          <Link to="/Process" className="MY" onClick={toggleMobileMenu}>Process</Link>
-          <Link to="/Controls" className="MY" onClick={toggleMobileMenu}>Controls</Link>
+          <Link to="/Process" className="MY" onClick={toggleMobileMenu}>Process Simulation</Link>
+          <Link to="/Controls" className="MY" onClick={toggleMobileMenu}>Instrumentation</Link>
           <Link to="/Business" className="MY" onClick={toggleMobileMenu}>Business</Link>
           <Link to="/Team" className="MY" onClick={toggleMobileMenu}>Our Team</Link>
           <Link to="/Comp" className="MY" onClick={toggleMobileMenu}>Competitions</Link>

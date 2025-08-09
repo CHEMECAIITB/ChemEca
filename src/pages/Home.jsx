@@ -98,21 +98,21 @@ const Home = () => {
           <Tilt>
             <HoverCard
               imageSrc={I1}
-              overlayText="Research"
+              overlayText="Research & development"
               overlayText2={`Adsorbent Modification \n Utilization \n Data Analysis`}
             />
           </Tilt>
           <Tilt>
             <HoverCard
               imageSrc={I2}
-              overlayText="Process"
+              overlayText="Process Simulation"
               overlayText2={`Modeling \n Fabrication \n Safety`}
             />
           </Tilt>
           <Tilt>
             <HoverCard
               imageSrc={I3}
-              overlayText="Controls"
+              overlayText="Instrumentation"
               overlayText2={`CO₂ Monitoring Device \n Control System Loops \n Internet of Things (IoT)`}
             />
           </Tilt>

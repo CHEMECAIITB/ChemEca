@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { gsap } from 'gsap';
@@ -8,15 +8,9 @@ import './Business.css';
 import ttb from '../assets/Havc.png';
 import tca from '../assets/zoom_meet.jpeg';
 import colab from '../assets/group_photo.jpg';
-import videoBg from '../assets/ChemEca_Pitch_video.mp4';
-
-
-
+import business_bg from '../assets/business.jpeg';
 
 const Business = () => {
-  const videoRef = useRef(null);
-  const [isMuted, setIsMuted] = useState(true);
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -30,50 +24,23 @@ const Business = () => {
     });
   });
 
-
-  useEffect(() => {
-  console.log(videoRef.current); // Should not be null
-  if (videoRef.current) {
-    console.log('Muted:', videoRef.current.muted);
-    console.log('Paused:', videoRef.current.paused);
-  }
-}, []);
-
-  const toggleMute = () => {
-    const video = videoRef.current;
-    if (video) {
-      video.muted = !video.muted;
-      setIsMuted(video.muted);
-    }
-  };
-
   return (
     <>
       <Header />
 
-      {/* Hero Section with Video */}
-      <div className="main3">
-        <video
-          ref={videoRef}
-          className="background-video"
-          autoPlay
-          muted
-          loop
-          playsInline
-        >
-          <source src="src/assets/ChemEca_Pitch_video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-
+      {/* Hero Section with Background Image */}
+      <div
+        className="main3"
+        style={{
+          backgroundImage: `url(${business_bg})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
         <div className="overlay" />
-
         <h1 className="headings text-white text-4xl sm:text-6xl md:text-7xl font-semibold uppercase z-10 text-center px-4">
           Business Subsystem
         </h1>
-
-        <button onClick={toggleMute} className="mute-btn z-10">
-          {isMuted ? '🔇 Unmute' : '🔊 Mute'}
-        </button>
       </div>
 
       {/* Section Template */}
