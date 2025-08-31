@@ -15,19 +15,19 @@ export const Hero = () => {
   });
 
   return (
-    <div className="wrap2 flex items-center justify-center text-center min-h-[60vh] px-4 mt-28">
+    <div className="wrap2 flex items-center justify-center text-center min-h-[60vh] px-4">
       <div className="w-full max-w-5xl">
-        <div className="overflow-hidden">
+        <div className="overflow-hidden py-4 leading-tight">
           <div className="tobe transform translate-y-32 opacity-0 text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-normal leading-snug">
             Catalysing
           </div>
         </div>
-        <div className="overflow-hidden">
+        <div className="overflow-hidden py-4 leading-tight">
           <h1 className="line transform translate-y-32 opacity-0 text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-normal leading-snug">
             Reactions into
           </h1>
         </div>
-        <div className="overflow-hidden">
+        <div className="overflow-hidden py-4 leading-tight">
           <h1 className="line transform translate-y-32 opacity-0 text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-normal leading-snug">
             Reality
           </h1>

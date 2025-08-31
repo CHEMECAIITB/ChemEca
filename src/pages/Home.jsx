@@ -56,19 +56,20 @@ const Home = () => {
 
       <div className="maintext flex items-center justify-center min-h-screen gap-5 flex-col px-4 text-center">
         <div className="maintext2 flex items-center justify-center gap-5 flex-col">
-          <h1 className="iitb text-lg sm:text-xl md:text-2xl lg:text-4xl tracking-normal font-medium uppercase">
-            IIT Bombay’s pioneering student-led team in
-          </h1>
-          <h1 className="iitb text-lg sm:text-xl md:text-2xl lg:text-4xl tracking-normal font-medium uppercase">
-            sustainable engineering,
-          </h1>
-          <h1 className="iitb text-lg sm:text-xl md:text-2xl lg:text-4xl tracking-normal font-medium uppercase">
-            aims to tackle challenges from carbon capture to fuel cells
-          </h1>
-          <h1 className="iitb text-lg sm:text-xl md:text-2xl lg:text-4xl tracking-normal font-medium uppercase">
-            driving innovation for a greener future
-          </h1>
-        </div>
+  <h1 className="iitb text-base sm:text-lg md:text-2xl lg:text-4xl tracking-normal font-medium uppercase">
+    IIT Bombay’s pioneering student-led team in
+  </h1>
+  <h1 className="iitb text-base sm:text-lg md:text-2xl lg:text-4xl tracking-normal font-medium uppercase">
+    sustainable engineering,
+  </h1>
+  <h1 className="iitb text-base sm:text-lg md:text-2xl lg:text-4xl tracking-normal font-medium uppercase">
+    aims to tackle challenges from carbon capture to fuel cells
+  </h1>
+  <h1 className="iitb text-base sm:text-lg md:text-2xl lg:text-4xl tracking-normal font-medium uppercase">
+    driving innovation for a greener future
+  </h1>
+</div>
+
       </div>
 
       <div className="content-container flex flex-col items-center justify-center px-4 text-justify">

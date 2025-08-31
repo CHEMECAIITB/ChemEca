@@ -30,3 +30,10 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+/* Mobile-only font size fix for headings */
+@media (max-width: 640px) {
+  .maintext h1 {
+    font-size: 0.95rem; /* smaller than text-base (~1rem) */
+    line-height: 1.3;   /* keeps spacing neat */
+  }
+}

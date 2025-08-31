@@ -12,10 +12,10 @@ function Card({ name, image, position, email }) {
       <h2 className='text-sm sm:text-base font-normal text-white text-center'>{position}</h2>
 
       {/* Overlay */}
-      <div className='overlay absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center text-center rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
-        <img src={logo} alt="ChemEca Logo" className='w-2/3 sm:w-1/2 mb-3' />
+      <div className='overlay absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center text-center rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 '>
+        <img src={logo} alt="ChemEca Logo" className='w-2/3 sm:w-1/2 mb-5' />
         <a href={`mailto:${email}`} aria-label={`Email ${name}`}>
-          <FiMail className='w-7 h-7 sm:w-8 sm:h-8 text-white' />
+          <FiMail className='w-7 h-7 sm:w-8 sm:h-8 text-white -mt-20' />
         </a>
       </div>
 
