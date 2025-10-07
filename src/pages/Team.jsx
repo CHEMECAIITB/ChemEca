@@ -38,6 +38,21 @@ import img31 from '../assets/profiles/img31.png';
 // import img34 from '../assets/profiles/img34.jpeg';
 // import img35 from '../assets/profiles/img35.jpeg';
 // import img36 from '../assets/profiles/img36.jpeg';
+import Atharva from '../assets/profiles/Atharva.jpeg';
+import Pramit from '../assets/profiles/Pramit.jpeg';
+import David from '../assets/profiles/David.jpg';
+import Manan from '../assets/profiles/Manan.jpg';
+import Chalam from '../assets/profiles/Chalam.jpg';
+import Omanshu from '../assets/profiles/Omanshu.jpg';
+import Nikita from '../assets/profiles/Nikita.jpg';
+import Vivek from '../assets/profiles/Vivek.jpg';
+import Vansh from '../assets/profiles/Vansh.jpg';
+import Aman from '../assets/profiles/Aman.jpeg';
+import Saumay from '../assets/profiles/Saumay.jpg';
+import  Aishani from '../assets/profiles/Aishani.jpg';
+import Manocharya from '../assets/profiles/Manoacharya.jpg';
+import James from '../assets/profiles/James.jpg';
+import Koushal from '../assets/profiles/Koushal.jpg';
 import Footer from '../components/Footer';
 import { useEffect } from "react";
 import { image } from 'framer-motion/client';
@@ -66,7 +81,11 @@ const Team = () => {
     // { "name": "Arush Gaur", "email": "210020022@iitb.ac.in", "position": "Senior Advisor", "division": "Research Subsystem", "image": img11 },
     // { "name": "Pranav P. Kawade", "email": "23B0372@iitb.ac.in", "position": "Research Associate", "division": "Research Subsystem" },
     // { "name": "Sai Tambaku", "email": "23B0351@iitb.ac.in", "position": "Research Associate", "division": "Research Subsystem" },
+    { "name": "James Antil", "email": "24B0303@iitb.ac.in", "position": "Subsystem Engineer", "division": "Research & Development", "image": James },
     { "name": "Shivam Gupta", "email": "23b0309@iitb.ac.in", "position": "Subsystem Engineer", "division": "Research & Development" ,"image": img31},
+    { "name": "Kolluru Venkata Sathya Neela Chalam", "email": "24B1821@iitb.ac.in", "position": "Subsystem Engineer", "division": "Research & Development", "image": Chalam },
+    { "name": "Nikita Rewad", "email": "24b2299@iitb.ac.in", "position": "Subsystem Engineer", "division": "Research & Development", "image": Nikita },
+      { "name": "Omanshu Kale", "email": "24B0366@iitb.ac.in", "position": "Subsystem Engineer", "division": "Research & Development", "image": Omanshu },
     // { "name": "Darppan MV", "email": "22b0436@iitb.ac.in", "position": "Research Associate", "division": "Research Subsystem" },
     // { "name": "Eshika Mishra", "email": "23B0371@iitb.ac.in", "position": "Research Associate", "division": "Research Subsystem" },
    
@@ -77,9 +96,11 @@ const Team = () => {
     // { "name": "Mahesh Naik", "email": "23b0350@iitb.ac.in", "position": "Process and Manufacturing Engineer", "division": "Process and Manufacturing Subsystem" },
     { "name": "OJAS PATHAK", "email": "23b0428@iitb.ac.in", "position": "Subsystem Lead", "division": "Process Simulation" , "image": img29 },
     { "name": "A Naveen", "email": "naveeen1125@gmail.com", "position": "Subsystem Engineer", "division": "Process Simulation", image: img20 },
-
     { "name": "Arpit Vikram Prajapati ", "email": "23B0371@iitb.ac.in", "position": "Subsystem Engineer", "division": "Process Simulation" , "image": img30},
-    
+    { "name": "Atharva Bhatlawande", "email": "24b0731@iitb.ac.in", "position": "Subsystem Engineer", "division": "Process Simulation", "image": Atharva },
+    { "name": "Aman Disa", "email": "24B0378@iitb.ac.in", "position": "Subsystem Engineer", "division": "Process Simulation", "image": Aman },
+    { "name": "Vansh Gaur", "email": "24b0390@iitb.ac.in", "position": "Subsystem Engineer", "division": "Process Simulation", "image": Vansh },
+    { "name": "Vivek Shabareesh", "email": "24b2274@iitb.ac.in", "position": "Subsystem Engineer", "division": "Process Simulation", "image": Vivek },
    
     // { "name": "Sivakrishna Sasi", "email": "23B2237@iitb.ac.in", "position": "Process and Manufacturing Engineer", "division": "Process and Manufacturing Subsystem" },
     // { "name": "Arth Trivedy", "email": "23b0380@iitb.ac.in", "position": "Process and Manufacturing Engineer", "division": "Process and Manufacturing Subsystem" },
@@ -93,14 +114,20 @@ const Team = () => {
     // { "name": "Mohammad Hasaan Naurez", "email": "hasaannaurez777@gmail.com", "position": "Control and Automation Engineer", "division": "Control and Automation Subsystem" },
     { "name": "Param Aghera", "email": "23b0447@iitb.ac.in", "position": "Subsystem Lead", "division": "Instrumentation" , image: img24 },
     { "name": "Om Anghan", "email": "23b0338@iitb.ac.in", "position": "Subsystem Engineer", "division": "Instrumentation" , image: img21 },
-    
-    // Business Subsystem
+    { "name": "Pramit Rao", "email": "24b0329@iitb.ac.in", "position": "Subsystem Engineer", "division": "Instrumentation", "image": Pramit },
+    { "name": "David Banjare", "email": "24B0359@iitb.ac.in", "position": "Subsystem Engineer", "division": "Instrumentation", "image": David },
+     { "name": "Manan Agrawal", "email": "24B0336@iitb.ac.in", "position": "Subsystem Engineer", "division": "Instrumentation", "image": Manan },
     // { "name": "Yogesh Dangi", "email": "yogesh.dangi@iitb.ac.in", "position": "Business Lead", "division": "Business Subsystem" },
     // { "name": "Riddhi Agarwal", "email": "riddhi2009@live.com", "position": "Senior Advisor", "division": "Business Subsystem" },
     // { "name": "Vassu Sharma", "email": "23b0409@iitb.ac.in", "position": "Business Associate", "division": "Business Subsystem" },
     // { "name": "Paresh Kumar Sabar", "email": "23b0328@iitb.ac.in", "position": "Business Associate", "division": "Business Subsystem" },
     // { "name": "Ishaan Srivastava", "email": "ishaan0719@gmail.com", "position": "Business Associate", "division": "Business Subsystem" }
+    
     { "name": "Renudhruva S", "email": "23b0445@iitb.ac.in", "position": "Subsystem Lead", "division": "Business" , image: img25 },
+    { "name": "Saumya patel", "email": "24b0339@iitb.ac.in", "position": "Subsystem Engineer", "division": "Business", "image": Saumay },
+    { "name": "Manohar Kadiyam", "email": "24b0388@iitb.ac.in", "position": "Subsystem Engineer", "division": "Business", "image": Manocharya },
+    { "name": "Koushal Chandak", "email": "24b0646@iitb.ac.in", "position": "Subsystem Engineer", "division": "Business", "image": Koushal },
+      { "name": "Aishani Panchal", "email": "24B3018@iitb.ac.in", "position": "Subsystem Engineer", "division": "Business", "image": Aishani },
 
   ];
   
