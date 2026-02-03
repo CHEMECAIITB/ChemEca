@@ -14,3 +14,52 @@
     align-items: center;
   }
   
+
+  .simulate-btn {
+  position: relative;
+  padding: 14px 36px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #dbeafe; /* light blue text */
+  background: rgba(10, 20, 35, 0.65);
+  border: 1px solid rgba(96, 165, 250, 0.55);
+  border-radius: 999px;
+  backdrop-filter: blur(14px);
+  box-shadow: 0 0 30px rgba(96, 165, 250, 0.18);
+  transition: all 0.35s ease;
+  overflow: hidden;
+}
+
+/* Animated glow sweep */
+.simulate-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(96, 165, 250, 0.45),
+    transparent
+  );
+  transform: translateX(-120%);
+  transition: transform 0.65s ease;
+}
+
+.simulate-btn:hover::before {
+  transform: translateX(120%);
+}
+
+.simulate-btn:hover {
+  color: #eff6ff;
+  border-color: #60a5fa;
+  box-shadow:
+    0 0 18px rgba(96, 165, 250, 0.7),
+    0 0 45px rgba(96, 165, 250, 0.45);
+  transform: translateY(-3px) scale(1.04);
+}
+
+.simulate-btn:active {
+  transform: scale(0.97);
+}

@@ -32,8 +32,8 @@ import img27 from '../assets/profiles/img27.jpg';   // vipul amrutkar
 // import img28 from '../assets/profiles/img28.jpeg';
 import img29 from '../assets/profiles/img29.jpg';
 import img30 from '../assets/profiles/img30.jpg';
-import img31 from '../assets/profiles/img31.png';
-// import img32 from '../assets/profiles/img32.jpeg';
+import img31 from '../assets/profiles/img14.png';
+import img32 from '../assets/profiles/img32.jpg';
 // import img33 from '../assets/profiles/img33.jpeg';
 // import img34 from '../assets/profiles/img34.jpeg';
 // import img35 from '../assets/profiles/img35.jpeg';
@@ -67,7 +67,7 @@ const Team = () => {
     // { "name": "Pranav P. Kawade", "email": "23B0372@iitb.ac.in", "position": "Research Associate", "division": "Research Subsystem" },
     // { "name": "Sai Tambaku", "email": "23B0351@iitb.ac.in", "position": "Research Associate", "division": "Research Subsystem" },
     { "name": "Shivam Gupta", "email": "23b0309@iitb.ac.in", "position": "Subsystem Engineer", "division": "Research & Development" ,"image": img31},
-    // { "name": "Darppan MV", "email": "22b0436@iitb.ac.in", "position": "Research Associate", "division": "Research Subsystem" },
+    { "name": " Chalam", "email": "24b1821@iitb.ac.in", "position": "Subsystem Engineer", "division": "Research & Development" , "image":  img32},
     // { "name": "Eshika Mishra", "email": "23B0371@iitb.ac.in", "position": "Research Associate", "division": "Research Subsystem" },
    
     // Process Simulation

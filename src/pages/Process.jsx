@@ -31,6 +31,17 @@ const Process = () => {
         <h1 className='headings text-4xl md:text-6xl font-medium uppercase text-center px-4'>
           Process Simulation Subsystem
         </h1>
+
+        <div className="flex justify-center mt-8">
+    <a
+      href="https://process-simulation-dashboard-yo3f.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="simulate-btn"
+    >
+      Simulate 1D Isothermal Packed-Bed Adsorption
+    </a>
+  </div>
       </div>
 
       {/* Section 1 */}
